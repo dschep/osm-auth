@@ -57,10 +57,6 @@ import { osmAuth } from 'https://cdn.skypack.dev/@dschep/osm-auth';
 &nbsp;
 
 
-**Requires `land.html` to be accessible, or a page that does the same thing -
-calls an auth complete function - to be available.**
-
-
 ### Support
 
 This project is tested in supported node versions and modern browsers.
@@ -109,6 +105,10 @@ document.getElementById("authenticate").onclick = function () {
   );
 };
 ```
+
+**Requires `land.html` to be accessible, or a page that does the same thing -
+calls an auth complete function - to be available.**
+
 
 ### Example with single-page
 ```js
