@@ -121,7 +121,7 @@
     });
     if (window.location.search.includes('code')) {
       auth.authenticate(function() {
-        history.pushState({}, null, '/');
+        history.pushState({}, null, window.location.pathname);
         update();
       });
     }
