@@ -1,7 +1,7 @@
 [![build](https://github.com/dschep/osm-auth/workflows/build/badge.svg)](https://github.com/dschep/osm-auth/actions?query=workflow%3A%22build%22)
-[![npm version](https://badge.fury.io/js/osm-auth.svg)](https://badge.fury.io/js/osm-auth)
+[![npm version](https://badge.fury.io/js/@dschep/osm-auth.svg)](https://badge.fury.io/js/@dschep/osm-auth)
 
-# osm-auth
+# @dschep/osm-auth
 
 Easy authentication with [OpenStreetMap](http://www.openstreetmap.org/) over [OAuth 2.0](https://oauth.net/2/).<br/>
 See also: https://wiki.openstreetmap.org/wiki/OAuth
@@ -28,29 +28,29 @@ This will start a local server on port 8080. Then open `http://127.0.0.1:8080/` 
 
 ### Use in Node
 
-To install osm-auth as a dependency in your project:
+To install @dschep/osm-auth as a dependency in your project:
 ```bash
-$  npm install --save osm-auth
+$  npm install --save @dschep/osm-auth
 ```
 
-**osm-auth** is distributed in CJS and ESM module formats for maxmimum compatibility. ([Read more about Javascript module formats](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm))
+**@dschep/osm-auth** is distributed in CJS and ESM module formats for maxmimum compatibility. ([Read more about Javascript module formats](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm))
 
 
 ```js
-const osmAuth = require('osm-auth').osmAuth;   // CJS named import
+const osmAuth = require('@dschep/osm-auth').osmAuth;   // CJS named import
 // or
-import { osmAuth } from 'osm-auth';   // ESM named import
+import { osmAuth } from '@dschep/osm-auth';   // ESM named import
 ```
 
 
 ### Use in Browsers
 
-You can also use **osm-auth** directly in a web browser.  A good way to do this is to fetch the ["iife"](https://esbuild.github.io/api/#format-iife) bundle from the [jsDelivr CDN](https://www.jsdelivr.com/), which can even deliver minified versions.
+You can also use **@dschep/osm-auth** directly in a web browser.  A good way to do this is to fetch the ["iife"](https://esbuild.github.io/api/#format-iife) bundle from the [jsDelivr CDN](https://www.jsdelivr.com/), which can even deliver minified versions.
 
 When you load this file in a `<script>` tag, you'll get a `osmAuth` global to use elsewhere in your scripts:
 ```html
 <head>
-<script src="https://cdn.jsdelivr.net/npm/osm-auth@2/dist/osm-auth.iife.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@dschep/osm-auth@2/dist/osm-auth.iife.min.js"></script>
 </head>
 …
 <script>
