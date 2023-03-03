@@ -18,7 +18,8 @@ Or you can run the demo locally by cloning this project, then run:
 ```sh
 $ npm install
 $ npm run build
-$ npm start
+$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes -subj '/CN=localhost'
+$ npm start -- -S
 ```
 
 This will start a local server on port 8080. Then open `http://127.0.0.1:8080/` in a browser.
