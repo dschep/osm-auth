@@ -1,4 +1,4 @@
-[![build](https://github.com/osmlab/osm-auth/workflows/build/badge.svg)](https://github.com/osmlab/osm-auth/actions?query=workflow%3A%22build%22)
+[![build](https://github.com/dschep/osm-auth/workflows/build/badge.svg)](https://github.com/dschep/osm-auth/actions?query=workflow%3A%22build%22)
 [![npm version](https://badge.fury.io/js/osm-auth.svg)](https://badge.fury.io/js/osm-auth)
 
 # osm-auth
@@ -6,12 +6,12 @@
 Easy authentication with [OpenStreetMap](http://www.openstreetmap.org/) over [OAuth 2.0](https://oauth.net/2/).<br/>
 See also: https://wiki.openstreetmap.org/wiki/OAuth
 
-Note: If you want the older version of this library that supports OpenStreetMap over OAuth 1.0a, use [the v1 branch](https://github.com/osmlab/osm-auth/tree/v1) and pin your software to older [release versions <2](https://github.com/osmlab/osm-auth/releases).  Going forward, the v1 branch will receive limited attention.
-
+## Difference with osmlab/osm-auth
+This fork features a `fetch` wrapper and single page support.
 
 ## Demo
 
-Try it out now at: https://osmlab.github.io/osm-auth/
+Try it out now at: https://dschep.github.io/osm-auth/
 
 Or you can run the demo locally by cloning this project, then run:
 
