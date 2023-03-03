@@ -22,7 +22,7 @@ $ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days
 $ npm start -- -S
 ```
 
-This will start a local server on port 8080. Then open `http://127.0.0.1:8080/` in a browser.
+This will start a local server on port 8080. Then open `https://127.0.0.1:8080/` in a browser.
 
 
 ## Usage
