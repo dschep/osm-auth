@@ -45,15 +45,10 @@ import { osmAuth } from '@dschep/osm-auth';   // ESM named import
 
 ### Use in Browsers
 
-You can also use **@dschep/osm-auth** directly in a web browser.  A good way to do this is to fetch the ["iife"](https://esbuild.github.io/api/#format-iife) bundle from the [jsDelivr CDN](https://www.jsdelivr.com/), which can even deliver minified versions.
-
-When you load this file in a `<script>` tag, you'll get a `osmAuth` global to use elsewhere in your scripts:
+You can also use **@dschep/osm-auth** directly in a web browser.  A good way to do this is to fetch the ESM module from the [skypack CDN](https://www.skypack.dev/), which can even deliver minified versions.
 ```html
-<head>
-<script src="https://cdn.jsdelivr.net/npm/@dschep/osm-auth@2/dist/osm-auth.iife.min.js"></script>
-</head>
-…
-<script>
+<script type="module">
+import { osmAuth } from 'https://cdn.skypack.dev/@dschep/osm-auth';
 // example here
 </script>
 ```
