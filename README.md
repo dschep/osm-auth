@@ -6,7 +6,7 @@
 Easy authentication with [OpenStreetMap](http://www.openstreetmap.org/) over [OAuth 2.0](https://oauth.net/2/).<br/>
 See also: https://wiki.openstreetmap.org/wiki/OAuth
 
-## Difference with osmlab/osm-auth
+## Differences with [github.com/osmlab/osm-auth](https://github.com/osmlab/osm-auth)
 This fork features a `fetch` wrapper and single page support.
 
 ## Demo
