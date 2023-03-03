@@ -1,5 +1,5 @@
 [![build](https://github.com/dschep/osm-auth/workflows/build/badge.svg)](https://github.com/dschep/osm-auth/actions?query=workflow%3A%22build%22)
-[![npm version](https://badge.fury.io/js/@dschep/osm-auth.svg)](https://badge.fury.io/js/@dschep/osm-auth)
+[![npm version](https://badge.fury.io/js/@dschep%2Fosm-auth.svg)](https://badge.fury.io/js/@dschep%2Fosm-auth)
 
 # @dschep/osm-auth
 
