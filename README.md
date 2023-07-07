@@ -7,7 +7,9 @@ Easy authentication with [OpenStreetMap](http://www.openstreetmap.org/) over [OA
 See also: https://wiki.openstreetmap.org/wiki/OAuth
 
 ## Differences with [github.com/osmlab/osm-auth](https://github.com/osmlab/osm-auth)
-This fork features a `fetch` wrapper and single page support.
+~~This fork features a `fetch` wrapper and single page support.~~
+
+**All changes in this repo have been merged up stream**
 
 ## Demo
 
